@@ -1,0 +1,115 @@
+body{
+    font-family: vazirmatn;
+
+}
+.container-fluid{
+    padding: 1% 10%;
+    background-color: #6096B4;
+}
+
+
+.navbar-brand{
+    margin-right:2% ;
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+.container-title{
+    width: 100%;
+    padding-bottom: 5%; 
+    margin-bottom: 5%;  
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #93BFCF, #BDCDD6, #6096B4 );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .logo{
+    margin-right: 4%;
+  }
+
+  .ai-img{
+    float: left;
+    width: 40%;
+    margin: 0 0% 5% 30%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .title-header{
+    margin: 0 0 5% 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+  }
+
+  .btn-outline-light{
+    text-align: center;
+    margin-right: 35%;
+    font-size: 2rem;
+    font-family: vazirmatn;
+  }
+
+  .product-title-line1{
+    text-align: center;
+
+  }
+
+  .product-title-line2{
+    text-align: center;
+    direction: ltr;
+  }
+
+  .btn-danger{
+    /* font-size: 1.5rem; */
+    font-weight: 700;
+  }
+  .col{
+    display: grid;
+  }
+
+  .card-body{
+    display: flex;
+    flex-grow: 1;
+    align-items: end;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .my-title-col{
+    
+    display: grid;
+    order:10;
+    align-self: flex-start;
+    justify-content: flex-start;
+  }
+
+  .btn-group{
+    margin: 0 25px;
+  }
+
+  .btn-danger{
+    margin: 0 20px 0 0;
+
+  }
+
+  .d-flex{
+    margin-top: 15%;
+  }
+
+  .pr-img{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  #Footer{
+    direction: ltr;
+
+  }
